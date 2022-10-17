@@ -4,7 +4,7 @@ public class Main {
          Books.printBooks(book1);
          Books.changes(book1);
          Books.printBooks(book1);
-         object obj1 = new object(); //Creatin object of a class
+         object obj1 = new object(); //Creating object of a class
          obj1.colour  = "Green";
          obj1.shape = "Square";
          object obj2; 
