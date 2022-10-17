@@ -4,11 +4,11 @@ public class Main {
          Books.printBooks(book1);
          Books.changes(book1);
          Books.printBooks(book1);
-         object obj1 = new object();
+         object obj1 = new object(); //Creatin object of a class
          obj1.colour  = "Green";
          obj1.shape = "Square";
-         object obj2;
-         obj2 = obj1;
-        System.out.println("Obj2: " + obj2.colour+" "+obj2.shape);
+         object obj2; 
+         obj2 = obj1; //Changing the object property
+        System.out.println("Obj2: " + obj2.colour+" "+obj2.shape); // Checking if the values are the same
     }
 }
